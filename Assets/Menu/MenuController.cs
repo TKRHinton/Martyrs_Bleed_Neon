@@ -12,11 +12,17 @@ public class MenuController : MonoBehaviour
 	[SerializeField] private GameObject noSaveGameDialog = null;
 	
 	
-	
+	public void	PlayNewGame ()
+	{
+		Debug.Log ("Start New Game");
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+		
+	}
 	
 	
 	public void ExitButton()
 	{
+		Debug.Log ("Quit!");
 		Application.Quit();
 	}
 	
