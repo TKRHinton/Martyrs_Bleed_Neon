@@ -1,0 +1,751 @@
+fileFormatVersion: 2
+guid: ac7968145bf213842b11a6103218aad3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tempBackgroundSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 1280
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac9b892e0de6164c980b19aa6d5181e
+      internalID: 220033150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tempBackgroundSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2400
+        width: 1280
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8682cb07d23884fa88dfa36c95a35e
+      internalID: -149348696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tempBackgroundSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2400
+        width: 1280
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9291ede9e0b694a428ba5e80f1b5668a
+      internalID: -397085274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tempBackgroundSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2400
+        width: 1280
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5c76240d4b1e7459045f95951f7dff
+      internalID: -437259617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tempBackgroundSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 2400
+        width: 1280
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: babf2b406b1e9dd4b9b87ebf8ed038e7
+      internalID: -201867090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tempBackgroundSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 2400
+        width: 1280
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554d7fc1741e3b143a016e55705faf15
+      internalID: 619780510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tempBackgroundSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 2400
+        width: 1280
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c12be65d6e4fc34a932c48b13d510a7
+      internalID: -531593021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tempBackgroundSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 1280
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256c83d8a101ae442bc71a33d19e98cc
+      internalID: -1568688441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tempBackgroundSpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1600
+        width: 1280
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c52b783beeff1e4e9b4bc42f72afc7e
+      internalID: 2129647539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tempBackgroundSpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1600
+        width: 1280
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c11a7710aad4704ba9e35106650ec92
+      internalID: 1468606230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tempBackgroundSpritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1600
+        width: 1280
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bedd7ec190b5c764390b572239d4faef
+      internalID: 1974273162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tempBackgroundSpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 1600
+        width: 1280
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394a5316737ea7e42889e5da4e276ac4
+      internalID: 620028350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tempBackgroundSpritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 1600
+        width: 1280
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eafad13c6e55d14c93850677df332f3
+      internalID: -483349518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tempBackgroundSpritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 1600
+        width: 1280
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe79cb16f2c8f749ae47a4bfff89326
+      internalID: -1191354804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tempBackgroundSpritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 1280
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f85d13c0412c6b4b9b7b9d8920e21fa
+      internalID: -971838228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tempBackgroundSpritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 800
+        width: 1280
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1acbed9e2b9a6c84895f8cb7948a6df4
+      internalID: 1589687494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tempBackgroundSpritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 800
+        width: 1280
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ed6761a264c29498f528db77c048d0
+      internalID: 1005712549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tempBackgroundSpritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 800
+        width: 1280
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3071c1324958bb4c9778f25d7be973b
+      internalID: -1207273215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tempBackgroundSpritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 800
+        width: 1280
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c255058739981c14ea3f0c4d7fd01f74
+      internalID: -700078050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tempBackgroundSpritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 800
+        width: 1280
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8607e0eba20c0454ca15caa4a0024afb
+      internalID: 1851442772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tempBackgroundSpritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 800
+        width: 1280
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42373a889cb71434dacf9444a467248b
+      internalID: 1880365326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tempBackgroundSpritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1280
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ea6780c7b06bb408c28b48f30ea880
+      internalID: -1599605895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tempBackgroundSpritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 1280
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc64ed825f702e429a361f017618146
+      internalID: -1738027424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tempBackgroundSpritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 1280
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f06504d28b310f4c91cc39538e6fb89
+      internalID: -2051177581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tempBackgroundSpritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 1280
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ee03afa274b4a4cba91a16784c1c47
+      internalID: -36982382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tempBackgroundSpritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 0
+        width: 1280
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545f6d9c6c1952b4b9521355a2fd3e38
+      internalID: 1495140138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tempBackgroundSpritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 0
+        width: 1280
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fbd55f8be34ab44926ea0d80688f01
+      internalID: 1891917797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tempBackgroundSpritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 0
+        width: 1280
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb0c8a0016634a44a82b5db5ca0d3d0
+      internalID: -1688952365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e1267759747276245b747ca791b322bc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      tempBackgroundSpritesheet_24: -36982382
+      tempBackgroundSpritesheet_6: -531593021
+      tempBackgroundSpritesheet_26: 1891917797
+      tempBackgroundSpritesheet_27: -1688952365
+      tempBackgroundSpritesheet_18: -700078050
+      tempBackgroundSpritesheet_14: -971838228
+      tempBackgroundSpritesheet_4: -201867090
+      tempBackgroundSpritesheet_2: -397085274
+      tempBackgroundSpritesheet_20: 1880365326
+      tempBackgroundSpritesheet_5: 619780510
+      tempBackgroundSpritesheet_19: 1851442772
+      tempBackgroundSpritesheet_8: 2129647539
+      tempBackgroundSpritesheet_12: -483349518
+      tempBackgroundSpritesheet_13: -1191354804
+      tempBackgroundSpritesheet_25: 1495140138
+      tempBackgroundSpritesheet_0: 220033150
+      tempBackgroundSpritesheet_9: 1468606230
+      tempBackgroundSpritesheet_11: 620028350
+      tempBackgroundSpritesheet_17: -1207273215
+      tempBackgroundSpritesheet_3: -437259617
+      tempBackgroundSpritesheet_21: -1599605895
+      tempBackgroundSpritesheet_22: -1738027424
+      tempBackgroundSpritesheet_1: -149348696
+      tempBackgroundSpritesheet_10: 1974273162
+      tempBackgroundSpritesheet_7: -1568688441
+      tempBackgroundSpritesheet_15: 1589687494
+      tempBackgroundSpritesheet_23: -2051177581
+      tempBackgroundSpritesheet_16: 1005712549
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
