@@ -27,7 +27,7 @@ public class MenuController : MonoBehaviour
 	
 	private void Start()
 	{
-		PlayerPrefs.DeleteAll();
+		//PlayerPrefs.DeleteAll();
 		Debug.Log ("Start!!");
 		
 		resolutions = Screen.resolutions; // Collects Users Screen Resolutions
@@ -60,10 +60,8 @@ public class MenuController : MonoBehaviour
 		//Set Resolution of Game 
 		Debug.Log (resolutions[resolutionIndex]);
 		Resolution resolution = resolutions[resolutionIndex];
-		Screen.SetResolution(resolution.width,resolution.width, Screen.fullScreen);
+		Screen.SetResolution(resolution.width,resolution.height, Screen.fullScreen);
 	}
-	
-	
 	
 	
 	public void	PlayNewGame ()
@@ -95,9 +93,6 @@ public class MenuController : MonoBehaviour
 	
 	public void SetFullScreen(int isFullScreen)
 	{
-		
-		
-		
 		bool fullScreen = true;
 		
 		if (isFullScreen == 0)
@@ -113,7 +108,6 @@ public class MenuController : MonoBehaviour
 		
 		PlayerPrefs.SetInt("masterFullscreen", (_isFullscreen ? 1 : 0));
 		Screen.fullScreen = _isFullscreen;
-		
 	}
 	
 	public void SetQuality(int QualityIndex)
@@ -122,8 +116,18 @@ public class MenuController : MonoBehaviour
 		
 		PlayerPrefs.SetInt("masterQuality", _qualityLevel);
 		QualitySettings.SetQualityLevel(_qualityLevel);
-		Debug.Log(QualityIndex);
 		Debug.Log(QualitySettings.currentLevel); //log quality level
+	}
+	
+	
+	public void setDefault()
+	{
+		QualitySettings.SetQualityLevel(3); //Ultra 
+		Screen.fullScreen = true; //Fullscreen
+		Screen.SetResolution(1920,1080, Screen.fullScreen);
+		
+		
+		
 	}
 
 
